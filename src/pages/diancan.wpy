@@ -1,0 +1,206 @@
+<style lang="less">
+    .container {
+        position: relative;
+        .add {
+            position: absolute;
+            top: 20rpx;
+            left: 20rpx;
+            color: white;
+            image {
+                float: left;
+                width: 40rpx;
+                height: 40rpx;
+            }
+            view {
+                float: left;
+                line-height: 40rpx;
+                margin-left: 10rpx;
+            }
+        }
+        .search {
+            position: absolute;
+            top: 100rpx;
+            width: 550rpx;
+            left: 100rpx;
+            height: 100rpx;
+            background: rgba(255,255,255,0.5);
+            .title {
+                float: left;
+                margin-left: 20rpx;
+                color: white;
+                line-height: 100rpx;
+                font-size: 14px;
+            }
+            image {
+                float: right;
+                margin-right: 20rpx;
+                width: 40rpx;
+                height: 40rpx;
+                margin-top: 30rpx;
+            }
+        }
+        .jptj {
+            width: 100%;
+            height: 25px;
+            border-bottom: 1px solid #EEE;
+            text-indent: 10px;
+            color: #ff4c4c;
+            font-size: 14px;
+            margin-top: 20rpx;
+            text {
+                font-size: 12px;
+                color: #7f8699;
+            }
+        }
+        .tj_content {
+            width: 94%;
+            padding: 3%;
+            border-bottom: 1px solid #eee;
+            float: left;
+            image {
+                float: left;
+                width: 280rpx;
+                height: 250rpx;
+            }
+            .contenty {
+                float: left;
+                margin-left: 20rpx;
+                width: 400rpx;
+                height: 250rpx;
+                .title {
+                    color: #333;
+                    height: 30%;
+                }
+                .spec {
+                    font-size: 12px;
+                    color: #555;
+                    height: 50%;
+                }
+                .address {
+                    font-size: 12px;
+                    color: #888;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+            }
+        }
+    }
+
+</style>
+<template>
+  <view class="container">
+      <!--轮播图-->
+      <swiper
+              indicator-dots="{{indicatorDots}}"
+              autoplay
+              interval="{{interval}}"
+              duration="{{duration}}" style="width: 100%">
+          <repeat for="{{imgUrls}}"  key="index" index="index" item="item">
+              <swiper-item>
+                  <image src="{{item}}" class="slide-image" mode="aspectFill"/>
+              </swiper-item>
+          </repeat>
+      </swiper>
+      <!--轮播图-->
+      <!--定位-->
+      <view class="add">
+          <image src="/images/weizhi.png"></image>
+          <view>南宁</view>
+      </view>
+      <!--定位-->
+      <!--搜索-->
+      <view class="search">
+          <view class="title">
+              请输入您要搜索的店名/美食..
+          </view>
+          <image src="/images/sousuo.png"></image>
+      </view>
+      <!--搜索-->
+
+      <view class="jptj">
+          <view>
+              | 精品推荐 <text>Quality recommendation</text>
+          </view>
+      </view>
+
+      <!--精品推荐-->
+      <swiper style="width: 100%;height: 650rpx" indicator-dots autoplay indicator-active-color="#ff4c4d" indicator-color="rgb(238, 238, 238)">
+              <swiper-item>
+                  <view class="tj_content">
+                      <image mode="aspectFill" src="https://p0.meituan.net/poi/3fd490aa426275e293fc19cf145c5c2265536.jpg@220w_125h_1e_1c"></image>
+                      <view class="contenty">
+                          <view class="title">卢布里西餐厅</view>
+                          <view class="spec">西餐 | 2.1km</view>
+                          <view class="address">南宁市西乡塘区大学东路世贸西城1楼</view>
+                      </view>
+                  </view>
+                  <view class="tj_content">
+                      <image mode="aspectFill" src="https://p0.meituan.net/poi/3fd490aa426275e293fc19cf145c5c2265536.jpg@220w_125h_1e_1c"></image>
+                      <view class="contenty">
+                          <view class="title">卢布里西餐厅</view>
+                          <view class="spec">西餐 | 2.1km</view>
+                          <view class="address">南宁市西乡塘区大学东路世贸西城1楼</view>
+                      </view>
+                  </view>
+              </swiper-item>
+              <swiper-item>
+                  <view class="tj_content">
+                      <image mode="aspectFill" src="https://p0.meituan.net/poi/3fd490aa426275e293fc19cf145c5c2265536.jpg@220w_125h_1e_1c"></image>
+                      <view class="contenty">
+                          <view class="title">卢布里西餐厅</view>
+                          <view class="spec">西餐 | 2.1km</view>
+                          <view class="address">南宁市西乡塘区大学东路世贸西城1楼</view>
+                      </view>
+                  </view>
+                  <view class="tj_content">
+                      <image mode="aspectFill" src="https://p0.meituan.net/poi/3fd490aa426275e293fc19cf145c5c2265536.jpg@220w_125h_1e_1c"></image>
+                      <view class="contenty">
+                          <view class="title">卢布里西餐厅</view>
+                          <view class="spec">西餐 | 2.1km</view>
+                          <view class="address">南宁市西乡塘区大学东路世贸西城1楼</view>
+                      </view>
+                  </view>
+              </swiper-item>
+
+      </swiper>
+
+      <!--精品推荐-->
+
+      <view style="width: 100%;height: 8px;background: #EEE;clear: both">
+
+      </view>
+
+      <!---->
+  </view>
+</template>
+
+<script>
+  import wepy from 'wepy'
+  export default class Diancan extends wepy.page {
+    config = {
+      navigationBarTitleText: '帮客到'
+    }
+    data = {
+      imgUrls: [
+        'http://p1.music.126.net/KmAj9UWpwJVtaZboE9f3xw==/109951163873755554.jpg',
+        'http://p1.music.126.net/zK3aD8mboEV2SUaENT8gjg==/109951163875618865.jpg',
+        'http://p1.music.126.net/Ky_LyqLYNLlm_Thnzh18_w==/109951163874058695.jpg'
+      ],
+      indicatorDots: false,
+      autoplay: false,
+      interval: 5000,
+      duration: 1000
+    }
+    methods = {
+    }
+    onLoad() {
+      wepy.getLocation({
+        type: 'wgs84',
+        success(res) {
+          console.log(res)
+        }
+      })
+    }
+  }
+</script>

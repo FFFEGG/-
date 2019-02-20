@@ -1,11 +1,4 @@
 <style lang="less">
-    .slide-image {
-        width: 100%;
-        height: 100%;
-    }
-    swiper {
-        height: 360rpx;
-    }
     .nav {
         width: 96%;
         height: 170rpx;
@@ -161,7 +154,7 @@
                 <image src="/images/nav1.png"></image>
                 <view>服务</view>
             </view>
-            <view class="item" style="background: #6cc3a0">
+            <view class="item" style="background: #6cc3a0" ontap="gotodiancan">
                 <image src="/images/nav1-03.png"></image>
                 <view>点餐</view>
             </view>
@@ -317,7 +310,6 @@
                 </view>
             </view>
         </view>
-
         <!--精品推荐-->
     </view>
 </template>
@@ -340,8 +332,13 @@
       interval: 5000,
       duration: 1000
     }
-    methods = {}
-
+    methods = {
+      gotodiancan() {
+        wepy.navigateTo({
+          url: '/pages/diancan'
+        })
+      }
+    }
     onLoad() {
     }
   }

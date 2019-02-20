@@ -8,6 +8,13 @@
         justify-content: space-between;
         box-sizing: border-box;
     }
+    .slide-image {
+        width: 100%;
+        height: 100%;
+    }
+    swiper {
+        height: 360rpx;
+    }
 </style>
 
 <script>
@@ -17,13 +24,19 @@
     config = {
       pages: [
         'pages/index',
-        'pages/user'
+        'pages/user',
+        'pages/diancan'
       ],
       window: {
         backgroundTextStyle: 'light',
         navigationBarBackgroundColor: '#fff',
         navigationBarTitleText: 'LaraBBS',
         navigationBarTextStyle: 'black'
+      },
+      permission: {
+        'scope.userLocation': {
+          desc: '你的位置信息将用于小程序定位附近餐厅使用'
+        }
       },
       tabBar: {
         list: [{

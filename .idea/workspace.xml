@@ -1,7 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e2968fc-df55-43c5-9f9c-a7c57f6cc1f0" name="Default Changelist" comment="" />
+    <list default="true" id="9e2968fc-df55-43c5-9f9c-a7c57f6cc1f0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/sousuo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/weizhi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/diancan.wpy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gtsl/src/images/电话客服.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gtsl/src/shop/image/jf_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gtsl/src/shop/pages/cate/slzq.wpy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gtsl/src/shop/pages/goods/collectlist.wpy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gtsl/src/shop/pages/grqy.wpy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gtsl/src/shop/pages/order/pj.wpy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gtsl/src/shop/pages/qbag.wpy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gtsl/src/shop/pages/teamqy.wpy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gtsl/src/shop/pages/userjifen.wpy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gtsl/src/swh/order/list.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/.wepycache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/project.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/app.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/app.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/components/gohome.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/components/gohome.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/components/goshop.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/components/goshop.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/dz_three.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/images/dz_three.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/er.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/foot_five.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/images/foot_five.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/foot_five1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/images/foot_five1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/foot_four.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/images/foot_four.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/foot_four1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/images/foot_four1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/foot_one.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/images/foot_one.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/foot_one1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/images/foot_one1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/foot_three.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/images/foot_three.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/foot_three1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/images/foot_three1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/foot_two.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/images/foot_two.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/foot_two1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/images/foot_two1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/gohone.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/images/gohone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/kefu.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/images/kefu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/kf.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/images/kf.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/nav_eight.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/images/nav_eight.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/right_kf.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/images/right_kf.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/right_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/images/right_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/tel.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/images/tel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/title_one.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/images/title_one.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/title_two.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/images/title_two.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/top.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/images/top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/vip1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/images/vip1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/vip12.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/images/vip12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/vip13.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/images/vip13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/vip14.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/images/vip14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/vip15.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/images/vip15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/vip2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/images/vip2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/vip3.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/images/vip3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/vip4.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/images/vip4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/vip5.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/images/vip5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/vip6.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/images/vip6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/vip7.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/images/vip7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/vip8.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/images/vip8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/vip9.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/images/vip9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/vip_dd.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/images/vip_dd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/vip_sz.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/images/vip_sz.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/xq_gwc.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/images/xq_gwc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/xq_sc.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/images/xq_sc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/xq_sy.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/images/xq_sy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/images/xx.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/images/xx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/pages/address.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/pages/address.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/pages/buycar.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/pages/buycar.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/pages/car.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/pages/car.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/pages/cate.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/pages/cate.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/pages/index.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/pages/index.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/pages/login.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/pages/login.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/pages/lounge.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/pages/lounge.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/pages/mycard.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/pages/mycard.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/pages/password.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/pages/password.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/pages/site.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/pages/site.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/pages/swh.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/pages/swh.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/pages/swh_list.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/pages/swh_list.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/pages/train.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/pages/train.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/pages/user.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/pages/user.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/pages/yyform.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/pages/yyform.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/shop/image/duigou.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/shop/image/duigou.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/shop/image/kf.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/shop/image/kf.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/shop/image/xq_sc1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/shop/image/xq_sc1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/shop/pages/buy/list.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/shop/pages/buy/list.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/shop/pages/buy/ms.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/shop/pages/buy/ms.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/shop/pages/buy/one.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/shop/pages/buy/one.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/shop/pages/buy/pt.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/shop/pages/buy/pt.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/shop/pages/cate/cjlb.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/shop/pages/cate/cjlb.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/shop/pages/cate/dfts.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/shop/pages/cate/dfts.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/shop/pages/cate/list.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/shop/pages/cate/list.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/shop/pages/cate/pt.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/shop/pages/cate/pt.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/shop/pages/cate/search.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/shop/pages/cate/search.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/shop/pages/goods/data.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/shop/pages/goods/data.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/shop/pages/goods/ms.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/shop/pages/goods/ms.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/shop/pages/goods/ptdata.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/shop/pages/goods/ptdata.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/shop/pages/goods/ptfxdata.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/shop/pages/goods/ptfxdata.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/shop/pages/index.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/shop/pages/index.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/shop/pages/ms/index.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/shop/pages/ms/index.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/shop/pages/msorder/data.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/shop/pages/msorder/data.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/shop/pages/msorder/list.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/shop/pages/msorder/list.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/shop/pages/msorder/tk.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/shop/pages/msorder/tk.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/shop/pages/msorder/yyorder.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/shop/pages/msorder/yyorder.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/shop/pages/mssuccess.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/shop/pages/mssuccess.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/shop/pages/order/data.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/shop/pages/order/data.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/shop/pages/order/list.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/shop/pages/order/list.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/shop/pages/order/tk.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/shop/pages/order/tk.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/shop/pages/order/yyorder.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/shop/pages/order/yyorder.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/shop/pages/ptorder/data.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/shop/pages/ptorder/data.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/shop/pages/ptorder/fxdata.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/shop/pages/ptorder/fxdata.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/shop/pages/ptorder/list.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/shop/pages/ptorder/list.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/shop/pages/ptorder/tk.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/shop/pages/ptorder/tk.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/shop/pages/ptorder/yyorder.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/shop/pages/ptorder/yyorder.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/shop/pages/ptsuccess.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/shop/pages/ptsuccess.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/shop/pages/success.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/shop/pages/success.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gtsl/src/utils/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/../gtsl/src/utils/api.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +131,11 @@
     <session id="740085675">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -23,7 +145,7 @@
           <entry key="json" value="1" />
           <entry key="png" value="2" />
           <entry key="wepyignore" value="1" />
-          <entry key="wpy" value="3" />
+          <entry key="wpy" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -33,33 +155,33 @@
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Vue.js" value="3" />
+          <entry key="Vue.js" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="ESLintLanguageService" value="1" />
+          <entry key="ESLintLanguageService" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="wpy" value="1573" />
+          <entry key="wpy" value="2721" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Vue.js" value="1573" />
+          <entry key="Vue.js" value="2721" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app.wpy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            <state relative-caret-position="254">
+              <caret line="44" column="39" lean-forward="true" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -74,35 +196,54 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pages/index.wpy">
+        <entry file="file://$PROJECT_DIR$/src/pages/diancan.wpy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="753">
-              <caret line="317" column="19" selection-start-line="317" selection-start-column="19" selection-end-line="317" selection-end-column="19" />
+            <state relative-caret-position="186">
+              <caret line="173" column="10" selection-start-line="173" selection-start-column="10" selection-end-line="173" selection-end-column="10" />
               <folding>
-                <element signature="n#swiper#0;n#view#0;n#template#0;n#!!top" />
                 <element signature="n#style#0;n#swiper#0;n#view#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#view#0;n#view#0;n#template#0;n#!!top" />
-                <element signature="n#style#0;n#view#0;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#view#1;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#view#2;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#view#1;n#view#0;n#template#0;n#!!top" />
-                <element signature="n#view#0;n#view#1;n#view#0;n#template#0;n#!!top" />
-                <element signature="n#view#1;n#view#1;n#view#0;n#template#0;n#!!top" />
-                <element signature="n#view#2;n#view#1;n#view#0;n#template#0;n#!!top" />
-                <element signature="n#view#3;n#view#1;n#view#0;n#template#0;n#!!top" />
+                <element signature="n#style#0;n#swiper#1;n#view#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#view#3;n#view#0;n#template#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../gtsl/src/pages/swh.wpy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="113" column="46" selection-start-line="113" selection-start-column="46" selection-end-line="113" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>jptj</find>
+      <find>navigationBarTextStyle: '#FFFFFF'</find>
+      <find>navigationBarTextStyle</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>navigationBarTextStyle: 'white'</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/../gtsl/src</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/pages/user.wpy" />
-        <option value="$PROJECT_DIR$/src/app.wpy" />
         <option value="$PROJECT_DIR$/src/pages/index.wpy" />
+        <option value="$PROJECT_DIR$/../gtsl/src/pages/swh.wpy" />
+        <option value="$PROJECT_DIR$/src/app.wpy" />
+        <option value="$PROJECT_DIR$/src/pages/diancan.wpy" />
       </list>
     </option>
   </component>
@@ -124,7 +265,7 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="440" />
+    <option name="x" value="236" />
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="988" />
@@ -149,6 +290,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -170,12 +312,6 @@
               <item name="diancan" type="b2602c69:ProjectViewProjectNode" />
               <item name="diancan" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="diancan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="diancan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -189,8 +325,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
@@ -223,26 +362,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550629924513</updated>
-      <workItem from="1550629928311" duration="5300000" />
+      <workItem from="1550629928311" duration="5907000" />
+      <workItem from="1550647851484" duration="612000" />
+      <workItem from="1550648883999" duration="4491000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5300000" />
+    <option name="totallyTimeSpent" value="11010000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="440" y="23" width="1920" height="988" extended-state="0" />
+    <frame x="236" y="23" width="1920" height="988" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="npm" side_tool="true" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13631523" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13844515" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -250,10 +386,15 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,19 +419,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.template.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.template.html" />
     <entry file="file://$PROJECT_DIR$/src/images/foot1_1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/images/foot1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.wpy">
+    <entry file="file://$PROJECT_DIR$/src/pages/index.wpy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        <state relative-caret-position="262">
+          <caret line="80" column="2" selection-start-line="80" selection-start-column="2" selection-end-line="91" selection-end-column="5" />
+          <folding>
+            <element signature="n#swiper#0;n#view#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#swiper#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#0;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#1;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#2;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#view#1;n#view#0;n#template#0;n#!!top" />
+            <element signature="n#view#0;n#view#1;n#view#0;n#template#0;n#!!top" />
+            <element signature="n#view#1;n#view#1;n#view#0;n#template#0;n#!!top" />
+            <element signature="n#view#2;n#view#1;n#view#0;n#template#0;n#!!top" />
+            <element signature="n#view#3;n#view#1;n#view#0;n#template#0;n#!!top" />
+            <element signature="n#view#2;n#view#0;n#template#0;n#!!top" />
+            <element signature="n#view#3;n#view#0;n#template#0;n#!!top" />
+            <element signature="n#view#0;n#view#6;n#view#3;n#view#0;n#template#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -301,22 +455,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.wpy">
+    <entry file="file://$PROJECT_DIR$/../gtsl/src/pages/swh.wpy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="753">
-          <caret line="317" column="19" selection-start-line="317" selection-start-column="19" selection-end-line="317" selection-end-column="19" />
+        <state relative-caret-position="245">
+          <caret line="113" column="46" selection-start-line="113" selection-start-column="46" selection-end-line="113" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.wpy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="44" column="39" lean-forward="true" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/diancan.wpy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="173" column="10" selection-start-line="173" selection-start-column="10" selection-end-line="173" selection-end-column="10" />
           <folding>
-            <element signature="n#swiper#0;n#view#0;n#template#0;n#!!top" />
             <element signature="n#style#0;n#swiper#0;n#view#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#view#0;n#view#0;n#template#0;n#!!top" />
-            <element signature="n#style#0;n#view#0;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#view#1;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#view#2;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#view#1;n#view#0;n#template#0;n#!!top" />
-            <element signature="n#view#0;n#view#1;n#view#0;n#template#0;n#!!top" />
-            <element signature="n#view#1;n#view#1;n#view#0;n#template#0;n#!!top" />
-            <element signature="n#view#2;n#view#1;n#view#0;n#template#0;n#!!top" />
-            <element signature="n#view#3;n#view#1;n#view#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#swiper#1;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#3;n#view#0;n#template#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
