@@ -1,0 +1,58 @@
+<style lang="less">
+    .container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+    }
+</style>
+
+<script>
+  import wepy from 'wepy'
+
+  export default class extends wepy.app {
+    config = {
+      pages: [
+        'pages/index',
+        'pages/user'
+      ],
+      window: {
+        backgroundTextStyle: 'light',
+        navigationBarBackgroundColor: '#fff',
+        navigationBarTitleText: 'LaraBBS',
+        navigationBarTextStyle: 'black'
+      },
+      tabBar: {
+        list: [{
+          pagePath: 'pages/index',
+          text: '首页',
+          iconPath: 'images/foot1.png',
+          selectedIconPath: 'images/foot1_1.png'
+        }, {
+          pagePath: 'pages/user',
+          text: '购物车',
+          iconPath: 'images/foot2.png',
+          selectedIconPath: 'images/foot2_1.png'
+        }, {
+          pagePath: 'pages/user',
+          text: '会员中心',
+          iconPath: 'images/foot3.png',
+          selectedIconPath: 'images/foot3_1.png'
+        }],
+        color: '#707070',
+        selectedColor: '#f7907c'
+      }
+    }
+
+    constructor() {
+      super()
+      this.use('requestfix')
+    }
+
+    onLaunch() {
+    }
+  }
+</script>

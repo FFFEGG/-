@@ -1,0 +1,348 @@
+<style lang="less">
+    .slide-image {
+        width: 100%;
+        height: 100%;
+    }
+    swiper {
+        height: 360rpx;
+    }
+    .nav {
+        width: 96%;
+        height: 170rpx;
+        padding: 5% 2%;
+        .item {
+            float: left;
+            width: 25%;
+            margin: 0 4%;
+            height: 112%;
+            text-align: center;
+            image {
+                width: 100rpx;
+                height: 100rpx;
+                margin-top: 20rpx;
+            }
+            view {
+                color: white;
+            }
+        }
+    }
+
+    .nav4 {
+        width: 96%;
+        padding: 2%;
+        float: left;
+        .item {
+            width: 49%;
+            float: left;
+            margin-right: 2%;
+            background: #f8f8fa;
+            border-radius: 3px;
+            margin-bottom: 2%;
+            height: 250rpx;
+            .ms_heard {
+                height: 37%;
+                width: 95%;
+                padding-top: 3%;
+                padding-left: 5%;
+                .ms_title {
+                    color: #ff4c4c;
+                    height: 20px;
+                    font-size: 14px;
+                    line-height: 20px;
+                    text{
+                        background: #ff4c4c;
+                        color: white;
+                        font-size: 26rpx;
+                        padding: 2rpx 10rpx;
+                        border-radius: 2rpx;
+                    }
+                }
+                .ms_desc {
+                    font-size: 12px;
+                    color: #7f8699;
+                }
+            }
+            .ms_footer{
+                height: 50%;
+                width: 90%;
+                padding: 3% 5%;
+                image {
+                    width: 120rpx;
+                    height: 120rpx;
+                    float: left;
+                    margin-right: 50rpx;
+                }
+                image:nth-child(2) {
+                    margin-right: 0;
+                }
+                image:nth-child(1) {
+                    margin-left: 10rpx;
+                }
+            }
+        }
+        .item:nth-child(2n){
+            margin-right: 0;
+        }
+    }
+
+    .jptj {
+        width: 100%;
+        height: 25px;
+        border-bottom: 1px solid #EEE;
+        text-indent: 10px;
+        color: #ff4c4c;
+        font-size: 14px;
+        text {
+            font-size: 12px;
+            color: #7f8699;
+        }
+    }
+    .content {
+        width: 92%;
+        padding: 3%;
+        float: left;
+        .items {
+            width: 48%;
+            margin-right: 2.5%;
+            margin-bottom: 2%;
+            float: left;
+            text-align: center;
+            border: 1px #eee solid;
+            .desc {
+                width: 80%;
+                height: 300rpx;
+            }
+            .title {
+                font-size: 12px;
+                text-align: left;
+                overflow: hidden;
+                text-overflow:ellipsis;
+                white-space: nowrap;
+            }
+            .price {
+                width: 92%;
+                padding: 2% 4%;
+                float: left;
+                .price_price {
+                    color: red;
+                    font-size: 12px;
+                    float: left;
+                }
+                image {
+                    float: right;
+                    width: 35rpx;
+                    height: 35rpx;
+                }
+            }
+        }
+        .items:nth-child(2n) {
+            margin-right: 0;
+        }
+    }
+</style>
+<template>
+    <view class="container">
+        <!--轮播图-->
+        <swiper
+                indicator-dots="{{indicatorDots}}"
+                autoplay="{{autoplay}}"
+                interval="{{interval}}"
+                duration="{{duration}}" style="width: 100%">
+            <repeat for="{{imgUrls}}"  key="index" index="index" item="item">
+                <swiper-item>
+                    <image src="{{item}}" class="slide-image" mode="aspectFill"/>
+                </swiper-item>
+            </repeat>
+        </swiper>
+        <!--轮播图-->
+        <!--菜单-->
+        <view class="nav">
+            <view class="item" style="background: #f7907c">
+                <image src="/images/nav1.png"></image>
+                <view>服务</view>
+            </view>
+            <view class="item" style="background: #6cc3a0">
+                <image src="/images/nav1-03.png"></image>
+                <view>点餐</view>
+            </view>
+            <view class="item" style="background: #67b7e5">
+                <image src="/images/nav1-04.png"></image>
+                <view>商城</view>
+            </view>
+        </view>
+        <!--菜单-->
+        <!--4宫格-->
+        <view class="nav4">
+            <!--秒杀-->
+            <view class="item">
+            <view class="ms_heard">
+            <view class="ms_title">
+            秒杀 <text>限时抢购</text>
+            </view>
+            <view class="ms_desc">
+            刷新超低折扣
+            </view>
+            </view>
+            <view class="ms_footer">
+            <image src="https://mcdn.pinduoduo.com/assets/img/cat_girlshoes_2.jpg"></image>
+            <image src="https://t00img.yangkeduo.com/goods/images/2018-09-20/f2574f13e8129c35f96cf6d90519a568.jpeg@750w_1l_50Q.src"></image>
+            </view>
+            </view>
+            <!--秒杀-->
+            <!--精品推荐-->
+            <view class="item">
+            <view class="ms_heard">
+            <view class="ms_title">
+            精品推荐 <text>售完为止</text>
+            </view>
+            <view class="ms_desc">
+            打破电商价格壁垒
+            </view>
+            </view>
+            <view class="ms_footer">
+            <image mode="aspectFill" src="https://t00img.yangkeduo.com/goods/images/2018-11-21/8f6d9f6a6a905eeab507bf1b1d7bf32f.jpeg@750w_1l_50Q.src"></image>
+            <image mode="aspectFill" src="https://t00img.yangkeduo.com/goods/images/2019-01-04/49241a9c72afa87f9f2aceadaa8947b7.jpeg@750w_1l_50Q.src"></image>
+            </view>
+            </view>
+            <!--精品推荐-->
+            <!--一元拼购-->
+            <view class="item">
+            <view class="ms_heard">
+            <view class="ms_title">
+            一元拼团
+            </view>
+            <view class="ms_desc">
+            拼着买更便宜
+            </view>
+            </view>
+            <view class="ms_footer">
+            <image mode="aspectFill" src="https://mcdn.pinduoduo.com/assets/img/cat_boyshirt.jpg"></image>
+            <image mode="aspectFill" src="https://t00img.yangkeduo.com/goods/images/2018-11-14/f4fa5eaec8117349cea99d8f59cc3c2e.jpeg@750w_1l_50Q.src"></image>
+            </view>
+            </view>
+            <!--一元拼购-->
+            <!--精品推荐-->
+            <view class="item">
+            <view class="ms_heard">
+            <view class="ms_title">
+            精品推荐
+            </view>
+            <view class="ms_desc">
+            打破电商价格壁垒
+            </view>
+            </view>
+            <view class="ms_footer">
+            <image mode="aspectFill" src="https://t00img.yangkeduo.com/goods/images/2018-10-20/f78d0717df5896186775a46d4a84888c.jpeg@750w_1l_50Q.src"></image>
+            <image mode="aspectFill" src="https://mcdn.pinduoduo.com/assets/img/cat_shoes.jpg"></image>
+            </view>
+            </view>
+            <!--精品推荐-->
+        </view>
+        <!--4宫格-->
+        <!--精品推荐-->
+        <view class="jptj">
+            <view>
+                | 精品推荐 <text>Quality recommendation</text>
+            </view>
+        </view>
+        <view class="content">
+            <view class="items">
+                <image   mode="aspectFill" class="desc" src="https://t00img.yangkeduo.com/goods/images/2018-08-28/2d010c6082423c37fec6b5797c82df91.jpeg@750w_1l_50Q.src"></image>
+                <view class="title">
+                    【洁丽雅500克】纯棉浴巾男女情侣加大加厚 柔软吸水家用成人浴巾
+                </view>
+                <view class="price">
+                    <view class="price_price">¥ 2999</view>
+                    <image src="/images/cart.png"></image>
+                </view>
+            </view>
+            <view class="items">
+                <image   mode="aspectFill" class="desc" src="https://t00img.yangkeduo.com/goods/images/2018-08-28/2d010c6082423c37fec6b5797c82df91.jpeg@750w_1l_50Q.src"></image>
+                <view class="title">
+                    【洁丽雅500克】纯棉浴巾男女情侣加大加厚 柔软吸水家用成人浴巾
+                </view>
+                <view class="price">
+                    <view class="price_price">¥ 2999</view>
+                    <image src="/images/cart.png"></image>
+                </view>
+            </view>
+            <view class="items">
+                <image   mode="aspectFill" class="desc" src="https://t00img.yangkeduo.com/goods/images/2018-08-28/2d010c6082423c37fec6b5797c82df91.jpeg@750w_1l_50Q.src"></image>
+                <view class="title">
+                    【洁丽雅500克】纯棉浴巾男女情侣加大加厚 柔软吸水家用成人浴巾
+                </view>
+                <view class="price">
+                    <view class="price_price">¥ 2999</view>
+                    <image src="/images/cart.png"></image>
+                </view>
+            </view>
+            <view class="items">
+                <image   mode="aspectFill" class="desc" src="https://t00img.yangkeduo.com/goods/images/2018-08-28/2d010c6082423c37fec6b5797c82df91.jpeg@750w_1l_50Q.src"></image>
+                <view class="title">
+                    【洁丽雅500克】纯棉浴巾男女情侣加大加厚 柔软吸水家用成人浴巾
+                </view>
+                <view class="price">
+                    <view class="price_price">¥ 2999</view>
+                    <image src="/images/cart.png"></image>
+                </view>
+            </view>
+            <view class="items">
+                <image   mode="aspectFill" class="desc" src="https://t00img.yangkeduo.com/goods/images/2018-08-28/2d010c6082423c37fec6b5797c82df91.jpeg@750w_1l_50Q.src"></image>
+                <view class="title">
+                    【洁丽雅500克】纯棉浴巾男女情侣加大加厚 柔软吸水家用成人浴巾
+                </view>
+                <view class="price">
+                    <view class="price_price">¥ 2999</view>
+                    <image src="/images/cart.png"></image>
+                </view>
+            </view>
+            <view class="items">
+                <image   mode="aspectFill" class="desc" src="https://t00img.yangkeduo.com/goods/images/2018-08-28/2d010c6082423c37fec6b5797c82df91.jpeg@750w_1l_50Q.src"></image>
+                <view class="title">
+                    【洁丽雅500克】纯棉浴巾男女情侣加大加厚 柔软吸水家用成人浴巾
+                </view>
+                <view class="price">
+                    <view class="price_price">¥ 2999</view>
+                    <image src="/images/cart.png"></image>
+                </view>
+            </view>
+            <view class="items">
+                <image   mode="aspectFill" class="desc" src="https://t00img.yangkeduo.com/goods/images/2018-08-28/2d010c6082423c37fec6b5797c82df91.jpeg@750w_1l_50Q.src"></image>
+                <view class="title">
+                    【洁丽雅500克】纯棉浴巾男女情侣加大加厚 柔软吸水家用成人浴巾
+                </view>
+                <view class="price">
+                    <view class="price_price">¥ 2999</view>
+                    <image src="/images/cart.png"></image>
+                </view>
+            </view>
+        </view>
+
+        <!--精品推荐-->
+    </view>
+</template>
+
+<script>
+  import wepy from 'wepy'
+
+  export default class Index extends wepy.page {
+    config = {
+      navigationBarTitleText: '帮客到'
+    }
+    data = {
+      imgUrls: [
+        'http://p1.music.126.net/KmAj9UWpwJVtaZboE9f3xw==/109951163873755554.jpg',
+        'http://p1.music.126.net/zK3aD8mboEV2SUaENT8gjg==/109951163875618865.jpg',
+        'http://p1.music.126.net/Ky_LyqLYNLlm_Thnzh18_w==/109951163874058695.jpg'
+      ],
+      indicatorDots: false,
+      autoplay: false,
+      interval: 5000,
+      duration: 1000
+    }
+    methods = {}
+
+    onLoad() {
+    }
+  }
+</script>

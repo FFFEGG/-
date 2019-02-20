@@ -1,0 +1,22 @@
+<style lang="less">
+</style>
+<template>
+  <view class="container">
+
+  </view>
+</template>
+
+<script>
+  import wepy from 'wepy'
+  export default class User extends wepy.page {
+    config = {
+      navigationBarTitleText: '帮客到'
+    }
+    data = {
+    }
+    methods = {
+    }
+    onLoad() {
+    }
+  }
+</script>

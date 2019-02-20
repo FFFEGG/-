@@ -1,0 +1,17 @@
+{
+	"description": "diancan project",
+	"setting": {
+		"urlCheck": false,
+		"es6": false,
+		"postcss": false,
+		"minified": false,
+		"newFeature": true,
+		"autoAudits": false
+	},
+	"compileType": "miniprogram",
+	"appid": "wxf3fd04ea9b1b37cb",
+	"projectname": "diancan",
+	"miniprogramRoot": "dist/",
+	"libVersion": "2.6.0",
+	"condition": {}
+}
